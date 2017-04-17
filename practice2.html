@@ -5,7 +5,7 @@
 		<title></title>
 		<style type="text/css">			
 			ul{
-				width: 433px;
+				width: 503px;
 				height: 42px;
 				list-style: none;
 				padding: 0;
@@ -13,11 +13,12 @@
 				font: 14px/40px "宋体";
 				color: #f06000;
 				text-align: center;
-				/*position: relative;*/
+				position: relative;
 			}
-			li{
-				/*width: 40px;*/
+			li{				
 				border: 1px solid #0000f0;
+				border-bottom: 1px solid black;
+				background: #f0f0f0;
 				position: absolute;	
 			}
 			.a{
@@ -40,8 +41,17 @@
 				width: 66px;				
 				left: 324px;							
 			}
+			.f{
+				height: 41px;
+				width: 70px;
+				border-top:0;
+				border-left:0;
+				border-right:0;
+				left: 392px;
+			}
 			li:hover{
 				border-color: black;
+				border-bottom-color: #f0f0f0;
 				z-index: 7;	
 			}
 		</style>
@@ -53,6 +63,7 @@
 			<li class="c">妙味课堂</li>
 			<li class="d">欢迎大家！</li>
 			<li class="e">miaov</li>
+			<li class="f"></li>
 		</ul>
 	</body>
 </html>
